@@ -330,3 +330,91 @@ button{
 .footer a{
     background-color: transparent;
 }
+
+
+/* Media query  */
+
+@media screen and (max-width: 1024px){
+.container{
+    flex-direction: column;
+    margin-top: 50px;
+}
+.gallery{
+    width: 100%;
+    grid-auto-rows: 300px;
+}
+.box{
+    grid-row: span 1;
+    grid-column: span 3;
+}
+.professional-services{
+    flex-direction: column;
+    margin-top: 100px;
+    height: 500px;
+}
+.services{
+    width: 750px;
+    height: 800px;
+}
+.bmi-section{
+    gap: 5px;
+}
+.footer{
+    gap: 10px;
+}
+}
+    
+
+/* media query for iphoneXR */
+
+
+@media screen and (max-width: 414px){
+    .container{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .gallery{
+        width: 100%;
+        grid-auto-rows: 300px;
+    }
+    .box{
+        grid-row: span 1;
+        grid-column: span 3;
+    }
+    
+    .workout-names{
+        font-size: 1.1rem;
+    }
+    .professional-services{
+        flex-direction: column;
+        margin-top: 100px;
+        height: 700px;
+        gap: 8px;
+    }
+    .services{
+        width: 414px;
+    }
+    .offers{
+        font-size: 1.3rem;
+        margin-top: 100px;
+    }
+    .offers-section{
+        flex-direction: column;
+        width: 414px;
+        margin-top:200px;
+     
+    }
+    .BMI{
+        margin-top: 180px;
+        font-size: 1.3rem;
+    }
+    .bmi-section{
+        gap: 5px;
+    }
+    .footer{
+        gap: 5px;
+        font-size: 0.8rem;
+    }
+    }
+        
+    
